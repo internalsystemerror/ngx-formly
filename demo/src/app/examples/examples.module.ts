@@ -142,6 +142,11 @@ import { SharedModule } from '../shared';
                 loadChildren: () =>
                   import('./bootstrap-specific/input-add-ons/config.module').then((m) => m.ConfigModule),
               },
+              {
+                path: 'floating-labels',
+                loadChildren: () =>
+                  import('./bootstrap-specific/floating-labels/config.module').then((m) => m.ConfigModule),
+              },
             ],
           },
 

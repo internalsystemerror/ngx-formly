@@ -72,6 +72,7 @@ export class AppComponent {
         { path: '/examples/bootstrap-specific/advanced-layout', title: 'Advanced Layout' },
         { path: '/examples/bootstrap-specific/bootstrap-horizontal', title: 'Bootstrap Horizontal' },
         { path: '/examples/bootstrap-specific/input-add-ons', title: 'Input add-ons' },
+        { path: '/examples/bootstrap-specific/floating-labels', title: 'Floating labels' },
 
         { title: 'Advanced' },
         { path: '/examples/advanced/i18n', title: 'i18n ngx-translate' },
